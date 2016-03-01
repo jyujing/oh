@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>恋爱历程</title>
+<style type="text/css">
+body{ background:url(k.jpg) no-repeat 0 0 /cover;width:100%;height:100%;}
+.STYLE1 {
+	font-family: "微软雅黑";
+	font-size: 50px;
+}
+.STYLE3 {font-size: 20px}
+.abc{text-decoration:none}
+</style>
+<script language="javascript">
+<!--
+	text = "邓超孙俪</br>2006年拍戏《幸福像花儿一样》认识</br>认识后邓叔叔就展开了疯狂追求</br>2006年12月终于确认在一起</br>恋爱期间公认模范夫妻</br>秀恩爱羡煞单身狗</br>2010年两人结成美满婚姻</br>婚后幸福连连</br>一家四口其乐融融</br>让人羡慕不已</br>我也不求什么</br>求上天赐我一个邓叔叔QAQ";
+	i    = 0;
+	function flash(){
+		str = text.charAt(i);
+		str = "<b>" + str + "</b>";
+		leftStr  = text.substr(0,i);
+		rightStr = text.substr(i+1,text.length-i);
+		txt.innerHTML = leftStr + str + rightStr;
+		i++;
+		if (i>=text.length)i=0;
+		setTimeout("flash()",500);
+	}
+//-->
+</script>
+</head>
+<body onLoad="flash()">
+<div class="STYLE1">超俪恋爱历程 <span class="STYLE3"><a href="index.html" class="abc">返回</a></span></div>
+<div id="txt" style="font-size:28px;font-family:Arial">
+</div>
+</body>
+</html>
+
